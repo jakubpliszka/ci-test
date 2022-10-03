@@ -7,3 +7,7 @@ def test_factorial_1():
 
 def test_factorial_2():
     assert factorial(0) == 1
+
+
+def test_factorial_3():
+    assert factorial(4) == 24
